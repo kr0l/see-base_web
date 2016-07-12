@@ -7,7 +7,7 @@ a {
   outline: none;
 }
 a:link {
-  color: #4E4E4E;
+  color: #004638;
 }
 a:focus, a:hover {
   text-decoration: underline;
@@ -19,7 +19,9 @@ a:active {
     background-color: rgba(0,0,0,1);
     font-family: 'Libre Baskerville', serif;
 }
-
+#title:link {
+  color: #FFFFFF;
+}
 h1 {
     color: #0BF0A0;
     text-align: center;
@@ -51,6 +53,9 @@ nav a {
 nav a:active {
   background-color: #128075;
 }
+a:visited {
+  color: #004638;
+}
 #asmain {
   display: flex;
   flex-flow: row;
@@ -59,12 +64,12 @@ nav a:active {
 aside {
   flex: 12.5%;
   order: 1;
-  background-color: #272727;
+  background-color: #161616;
   border-right: 4.2px solid #128075;
 }
 main {
   flex: 87.5%;
-    order: 2;
+  order: 2;
   background-color: #000000;
 }
 h2 {
@@ -102,9 +107,6 @@ img {
   float: right;
   margin-right: 5%;
   margin-left: 3%;
-}
-a:focus, a:hover {
-  text-decoration: none;
 }
 footer {
   border-top: 4.2px solid #128075;
