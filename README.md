@@ -4,4 +4,4 @@ In diesem Reposetory befindet sich eine kleine webseite für den Hackspace see-b
 Das ist eine Schülerarbeit.
 Das Template ist so weit fertig, am inhalt wird noch gearbeitet.
 
-In das Repo sollten möglichst keine bimer dateien, es sei den es lässt sich ncht vermeiden.
+In das Repo sollten möglichst keine Binea dateien, es sei den es lässt sich ncht vermeiden.
