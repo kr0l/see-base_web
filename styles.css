@@ -7,7 +7,7 @@ a {
   outline: none;
 }
 a:link {
-  color: #004638;
+  color: #00BC51;
 }
 a:focus, a:hover {
   text-decoration: underline;
@@ -15,12 +15,13 @@ a:focus, a:hover {
 a:active {
   color: white;
 }
+
+a:visited {
+  color: #00903E;
+}
 #wrapper {
     background-color: rgba(0,0,0,1);
     font-family: 'Libre Baskerville', serif;
-}
-#title:link {
-  color: #FFFFFF;
 }
 h1 {
     color: #0BF0A0;
@@ -53,8 +54,11 @@ nav a {
 nav a:active {
   background-color: #128075;
 }
-a:visited {
-  color: #004638;
+nav a:visited {
+    color: #250053;
+}
+nav a:link {
+  color: #250053;
 }
 #asmain {
   display: flex;
