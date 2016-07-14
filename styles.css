@@ -76,6 +76,21 @@ main {
   order: 2;
   background-color: #000000;
 }
+#mail_send_button {
+  background-color: #00977E;
+  margin-left: 5%;
+  font-size: 160%;
+}
+#mailto {
+  margin: 5%;
+  padding: 2%;
+  background-color: #414141;
+  font-size: 160%;
+}
+#mail_text {
+  font-size: 120%;
+  background-color: #B2B2B2;
+}
 h2 {
   margin: 20px;
   color: #00977E;
