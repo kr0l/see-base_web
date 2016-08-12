@@ -18,15 +18,15 @@
 	}
 	ul, ol { margin-left: 2em; }
 	ul ul, ul ol, ol ol, ol ul { margin-bottom: 0; }
-	blockquote { margin: 1em 2em; }	
+	blockquote { margin: 1em 2em; }
 } /* --- Ende Reset (@media all)*/
 
 /* --- Desktop --- */
 
 @media screen /*and (min-width: 769px)*/ {
-	
+
 	/* allgemein */
-	
+
 	body {
 		background: #000000;
 		color: #F5F5F5;
@@ -48,18 +48,18 @@
 	a:visited {
 		color: #00903E;
 	}
-	
+
 	/* header */
-	
+
 	#siteheader {
 		color: #0BF0A0;
 		text-align: center;
-		font-size: 500%;
-		margin: 0.5em;
+		font-size: 420%;
+	/*	margin: 0.5em; */
 	}
-	
+
 	/* nav */
-	
+
 	#nav {
 		background-color: #0ED5AA;
 		text-align: center;
@@ -97,9 +97,9 @@
 	#nav .level2 {
 		display: none;
 	}
-	
+
 	/* flex-asmain */
-	
+
 	#flex-asmain {
 		display: flex;
 		flex-flow: row;
@@ -114,10 +114,11 @@
 		flex: 80%;
 		order: 2;
 		padding: 10px;
+		min-height: 500px;
 	}
-	
+
 	/* footer */
-	
+
 	footer {
 		border-top: 4px solid #128075;
 		background-color: #002624;
