@@ -54,7 +54,8 @@
 				{
 					"label": "Seitenleisten Anordnung",
 					"name": "asidePosition",
-					"type": "text",
+					"type": "select",
+					"values": ["links", "rechts"],
 					"default": "rechts"
 				}
 			]
