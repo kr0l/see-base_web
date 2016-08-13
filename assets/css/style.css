@@ -2,7 +2,7 @@
 
 @media all {
 	html { overflow-y: scroll; }
-	body, div,
+	body, div, header, main, aside, footer, article, section,
 	h1, h2, h3, h4, h5, h6,
 	p, blockquote, pre, code,
 	ul, ol, li,
@@ -26,7 +26,9 @@
 @media screen /*and (min-width: 769px)*/ {
 
 	/* allgemein */
-
+	/*html, body {
+		height: 100%;
+	}*/
 	body {
 		background: #000000;
 		color: #F5F5F5;
@@ -48,14 +50,23 @@
 	a:visited {
 		color: #00903E;
 	}
-
-	/* header */
-
+ /* Wrapper */
+/* 	#wrapper {
+	 	min-height: 100%;
+	  margin-bottom: -50px;
+	}
+	#wrapper:after {
+		content: "";
+		display: block;
+		height: 50px;
+	} */
+/* header */
 	#siteheader {
-		color: #0BF0A0;
+		color: #00BF0A;
 		text-align: center;
+		margin: 0;
+		line-height: 12vh;
 		font-size: 420%;
-	/*	margin: 0.5em; */
 	}
 
 	/* nav */
@@ -82,7 +93,10 @@
 		color: #000;
 		font-weight: bold;
 		letter-spacing: 1.5px;
-		padding: 18px;
+		line-height: 6vh;
+		vertical-align: middle;
+
+	/*	padding: 18px;*/
 	}
 	#nav ul li:first-child {
 		border-left: 4px solid #128075;
@@ -103,26 +117,32 @@
 	#flex-asmain {
 		display: flex;
 		flex-flow: row;
+		min-height: 72vh;
 	}
 	aside {
 		flex: 20%;
-		order: 1;
-		border-right: 4px solid #128075;
-		padding: 10px;
+		order: 2;
+		border-left: 4px solid #128075;
+		padding: 20px;
+		max-width: 20%;
+		hyphens: auto;
 	}
 	main {
 		flex: 80%;
-		order: 2;
-		padding: 10px;
-		min-height: 500px;
+		order: 1;
+		padding: 20px;
+		min-height: 50px;
+		max-width: 80%;
+		text-align: justify;
 	}
-
 	/* footer */
 
 	footer {
+		min-height: 9vh;
+		width: 100%;
 		border-top: 4px solid #128075;
 		background-color: #002624;
-		min-height: 50px;
+		overflow: hidden;
 	}
 
 } /* --- Ende Desktop (@media screen) --- */
