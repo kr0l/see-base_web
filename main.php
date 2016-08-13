@@ -9,6 +9,11 @@
 	<?php echo ipHead(); ?>
 	<link href="assets/pictures/favicon.png" rel="shortcut icon">
 	<title>see-base || Der Hackerspace am Bodensee</title>
+	<style>
+		body {
+			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#000'); ?> !important
+		}
+	</style>
 </head>
 <body>
 	<div id="wrapper">

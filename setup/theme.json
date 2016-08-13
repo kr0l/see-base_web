@@ -3,5 +3,61 @@
 	"version": "0.0.1.42",
 	"doctype": "HTML5",
 	"thumbnail": "thumbnail.png",
-	"author": "kr0l und Talvi und die ganzen anderen Dudes"
+	"author": "kr0l und Talvi und die ganzen anderen Dudes",
+	"options": [
+		{
+			"label": "Farben",
+			"type": "group",
+			"options": [
+				{
+					"label": "Hintergrundfarbe",
+					"name": "bodyBackgroundColor",
+					"type": "color",
+					"default": "#000"
+				},
+				{
+					"label": "Titelfarbe",
+					"name": "h1Color",
+					"type": "color",
+					"default": "#F00"
+				},
+				{
+					"label": "Navigationsfarbe",
+					"name": "navColor",
+					"type": "color",
+					"default": "#00F"
+				},
+				{
+					"label": "Rahmenfarbe",
+					"name": "borderColor",
+					"type": "color",
+					"default": "#FFF"
+				},
+				{
+					"label": "Textfarbe",
+					"name": "textColor",
+					"type": "color",
+					"default": "#F5F5F5"
+				},
+				{
+					"label": "Fußleistenfarbe",
+					"name": "footerColor",
+					"type": "color",
+					"default": "#0F0"
+				}
+			]
+		}
+		{
+			"label": "Seitenoptik",
+			"type": "group",
+			"options": [
+				{
+					"label": "Seitenleisten Anordnung",
+					"name": "asidePosition",
+					"type": "text",
+					"default": "rechts"
+				}
+			]
+		}
+	]
 }
