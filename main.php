@@ -37,7 +37,7 @@
 				<?php echo ipBlock('main')->render(); ?>
 			</main>
 			<aside>
-				<p><?php echo ipBlock('side')->render(); ?></p>
+				<p><?php echo chop(ipBlock('side')->render()); ?></p>
 			</aside>
 		</div>
 	</div>
