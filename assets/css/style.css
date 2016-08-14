@@ -25,10 +25,6 @@
 
 @media screen /*and (min-width: 769px)*/ {
 
-	/* allgemein */
-	/*html, body {
-		height: 100%;
-	}*/
 	body {
 		background: #0B0E13;
 		color: #F5F5F5;
@@ -50,16 +46,6 @@
 	a:visited {
 		color: #00903E;
 	}
- /* Wrapper */
-/* 	#wrapper {
-	 	min-height: 100%;
-	  margin-bottom: -50px;
-	}
-	#wrapper:after {
-		content: "";
-		display: block;
-		height: 50px;
-	} */
 /* header */
 	#siteheader {
 		color: #5E8DDB;
@@ -95,8 +81,6 @@
 		letter-spacing: 1.5px;
 		line-height: 6vh;
 		vertical-align: middle;
-
-	/*	padding: 18px;*/
 	}
 	#nav ul li:first-child {
 		border-left: 4px solid #091B60;
