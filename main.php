@@ -10,6 +10,8 @@
 	<style>
 		body {
 			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#000'); ?> !important
+		}
+                body {
                         color: <?php echo ipGetThemeOption('textColor', '#F5F5F5'); ?> !important
 		}
  		#siteheader {
