@@ -9,22 +9,22 @@
 	<link href="assets/pictures/favicon.png" rel="shortcut icon">
 	<style>
 		body {
-			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#050d10'); ?> !important
+			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#0e0f3e'); ?> !important;
 		}
  		#siteheader {
-			color: <?php echo ipGetThemeOption('h1Color', '#3c4bc5'); ?> !important
+			color: <?php echo ipGetThemeOption('h1Color', '#3c4bc5'); ?> !important;
 		}
 		#nav {
-			background-color: <?php echo ipGetThemeOption('navColor', '#1c5c5c'); ?> !important
+			background-color: <?php echo ipGetThemeOption('navColor', '#004e66'); ?> !important;
 		}
 		#nav ul li, aside, footer {
-			border-color: <?php echo ipGetThemeOption('borderColor', '#302a79'); ?> !important
+			border-color: <?php echo ipGetThemeOption('borderColor', '#1f17a0'); ?> !important;
 		}
 		body {
-			color: <?php echo ipGetThemeOption('textColor', '#97dfeb'); ?> !important
+			color: <?php echo ipGetThemeOption('textColor', '#6eb0fb'); ?> !important;
 		}
 		footer {
-			background-color: <?php echo ipGetThemeOption('footerColor', '#3c4bc5'); ?> !important
+			background-color: <?php echo ipGetThemeOption('footerColor', '#24216c'); ?> !important;
 		}
 	</style>
 </head>
