@@ -10,6 +10,7 @@
 	<style>
 		body {
 			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#000'); ?> !important
+                        color: <?php echo ipGetThemeOption('textColor', '#F5F5F5'); ?> !important
 		}
  		#siteheader {
 			color: <?php echo ipGetThemeOption('h1Color', '#F00'); ?> !important
@@ -19,9 +20,6 @@
 		}
 		#nav ul li, aside, footer {
 			border-color: <?php echo ipGetThemeOption('borderColor', '#FFF'); ?> !important
-		}
-		body {
-			color: <?php echo ipGetThemeOption('textColor', '#F5F5F5'); ?> !important
 		}
 		footer {
 			background-color: <?php echo ipGetThemeOption('footerColor', '#0F0'); ?> !important
