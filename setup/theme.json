@@ -1,9 +1,9 @@
 {
 	"title": "see-base",
-	"version": "0.0.1.42",
+	"version": "0.4.2.3",
 	"doctype": "HTML5",
 	"thumbnail": "thumbnail.png",
-	"author": "kr0l und Talvi und die ganzen anderen Dudes",
+	"author": "kr0l, Talvi und die ganzen anderen Dudes",
 	"options": [
 		{
 			"label": "Farben",
