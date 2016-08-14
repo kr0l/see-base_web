@@ -9,22 +9,22 @@
 	<link href="assets/pictures/favicon.png" rel="shortcut icon">
 	<style>
 		body {
-			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#000'); ?> !important
+			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#050d10'); ?> !important
 		}
  		#siteheader {
-			color: <?php echo ipGetThemeOption('h1Color', '#F00'); ?> !important
+			color: <?php echo ipGetThemeOption('h1Color', '#3c4bc5'); ?> !important
 		}
 		#nav {
-			background-color: <?php echo ipGetThemeOption('navColor', '#00F'); ?> !important
+			background-color: <?php echo ipGetThemeOption('navColor', '#1c5c5c'); ?> !important
 		}
 		#nav ul li, aside, footer {
-			border-color: <?php echo ipGetThemeOption('borderColor', '#FFF'); ?> !important
+			border-color: <?php echo ipGetThemeOption('borderColor', '#302a79'); ?> !important
 		}
 		body {
-			color: <?php echo ipGetThemeOption('textColor', '#F5F5F5'); ?> !important
+			color: <?php echo ipGetThemeOption('textColor', '#97dfeb'); ?> !important
 		}
 		footer {
-			background-color: <?php echo ipGetThemeOption('footerColor', '#0F0'); ?> !important
+			background-color: <?php echo ipGetThemeOption('footerColor', '#3c4bc5'); ?> !important
 		}
 	</style>
 </head>

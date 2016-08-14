@@ -13,37 +13,37 @@
 					"label": "Hintergrundfarbe",
 					"name": "bodyBackgroundColor",
 					"type": "color",
-					"default": "#000"
+					"default": "#050d10"
 				},
 				{
 					"label": "Titelfarbe",
 					"name": "h1Color",
 					"type": "color",
-					"default": "#F00"
+					"default": "#3c4bc5"
 				},
 				{
 					"label": "Navigationsfarbe",
 					"name": "navColor",
 					"type": "color",
-					"default": "#00F"
+					"default": "#1c5c5c"
 				},
 				{
 					"label": "Rahmenfarbe",
 					"name": "borderColor",
 					"type": "color",
-					"default": "#FFF"
+					"default": "#302a79"
 				},
 				{
 					"label": "Textfarbe",
 					"name": "textColor",
 					"type": "color",
-					"default": "#F5F5F5"
+					"default": "#97dfeb"
 				},
 				{
 					"label": "Fußleistenfarbe",
 					"name": "footerColor",
 					"type": "color",
-					"default": "#0F0"
+					"default": "#3c4bc5"
 				}
 			]
 		},
