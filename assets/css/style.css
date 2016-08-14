@@ -1,7 +1,7 @@
 /* --- Reset --- */
 
 @media all {
-	html { overflow-y: scroll; }
+	html { overflow-y: auto; }
 	body, div, header, main, aside, footer, article, section,
 	h1, h2, h3, h4, h5, h6,
 	p, blockquote, pre, code,
@@ -23,7 +23,8 @@
 
 /* --- Desktop --- */
 
-@media screen /*and (min-width: 769px)*/ {
+@media screen /*and (min-width: 769px)*/
+ {
 
 	/* allgemein */
 	/*html, body {
@@ -118,6 +119,7 @@
 		display: flex;
 		flex-flow: row;
 		min-height: 72vh;
+                margin-bottom: -0.2em;
 	}
 	aside {
 		flex: 20%;
@@ -141,7 +143,7 @@
 		min-height: 9vh;
 		width: 100%;
 		border-top: 4px solid #091B60;
-		background-color: #708CB2;
+		background-color: #7081B2;
 		overflow: hidden;
 	}
 

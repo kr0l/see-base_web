@@ -3,12 +3,10 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
-	<meta name="description" content="###" />
-	<meta name="author" content="###" />
+	<meta name="author" content="Talvi, kr0l, L3D" />
 	<?php ipAddCss('assets/css/style.css'); ?>
-	<?php echo ipHead(); ?>
+<?php echo ipHead(); ?>
 	<link href="assets/pictures/favicon.png" rel="shortcut icon">
-	<title>see-base || Der Hackerspace am Bodensee</title>
 	<style>
 		body {
 			background: <?php echo ipGetThemeOption('bodyBackgroundColor', '#000'); ?> !important
