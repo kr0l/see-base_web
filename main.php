@@ -21,6 +21,9 @@
 		#nav ul li, aside, footer {
 			border-color: <?php echo ipGetThemeOption('borderColor', '#1f17a0'); ?> !important;
 		}
+    main {
+			order: <?php echo ipGetThemeOption('asidePosition', 'rechts'); ?> !important;
+		}
 		footer {
 			background-color: <?php echo ipGetThemeOption('footerColor', '#24216c'); ?> !important;
 		}

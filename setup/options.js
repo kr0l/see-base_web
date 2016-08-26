@@ -23,4 +23,8 @@ var ipDesignOptions = {
     'use strict';
     $('footer').css('background-color', value);
   }
+  asidePosition: function(value) {
+    'use strict';
+    $('main').css('order', value);
+  }
 };
