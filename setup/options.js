@@ -25,6 +25,6 @@ var ipDesignOptions = {
   }
   asidePosition: function(value) {
     'use strict';
-    $('main').css('order', value);
+    $('main').css('order', values);
   }
 };

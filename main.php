@@ -22,7 +22,7 @@
 			border-color: <?php echo ipGetThemeOption('borderColor', '#1f17a0'); ?> !important;
 		}
     main {
-			order: <?php echo ipGetThemeOption('asidePosition', 'rechts'); ?> !important;
+			order: <?php echo ipGetThemeOption('asidePosition', '1'); ?> !important;
 		}
 		footer {
 			background-color: <?php echo ipGetThemeOption('footerColor', '#24216c'); ?> !important;
