@@ -2,6 +2,6 @@
 <nav id="nav">
 	<?php
 		/*echo ipSlot('menu',array('items'=>'navigationsleiste'));*/
-		echo ipSlot('menu','navigation');
+		echo ipSlot('menu','menu1');
 	?>
 </nav>

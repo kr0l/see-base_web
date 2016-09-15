@@ -22,8 +22,22 @@
 			border-color: <?php echo ipGetThemeOption('borderColor', '#1f17a0'); ?> !important;
 		}
     main {
-			order: <?php echo ipGetThemeOption('asidePosition', '1'); ?> !important;
+			order: <?php $cssOrderRight = ipGetThemeOption('asidePosition', 'rechts');
+      if ($cssOrderRight == 'rechts')
+      { echo '1';}
+      else { echo '3'; } ?> !important;
 		}
+    aside {
+      border-right: <?php $cssOrderRight = ipGetThemeOption('asidePosition', 'rechts');
+      if ($cssOrderRight == 'rechts')
+      { echo 'none';}
+      else { echo '4px solid #091B60'; } ?> !important;
+
+      border-left: <?php $cssOrderRight = ipGetThemeOption('asidePosition', 'rechts');
+      if ($cssOrderRight == 'rechts')
+      { echo '4px solid #091B60';}
+      else { echo 'none'; } ?> !important;
+    }
 		footer {
 			background-color: <?php echo ipGetThemeOption('footerColor', '#24216c'); ?> !important;
 		}
