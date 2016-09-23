@@ -1,0 +1,194 @@
+/* Edit style.less, not this file. */
+/* --- Reset --- */
+@media all {
+  html {
+    overflow-y: scroll;
+  }
+  body,
+  div,
+  header,
+  main,
+  aside,
+  footer,
+  article,
+  section,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  code,
+  ul,
+  ol,
+  li,
+  table,
+  th,
+  td,
+  form,
+  fieldset,
+  legend,
+  input,
+  textarea {
+    padding: 0;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  ul,
+  ol {
+    margin-bottom: 1em;
+  }
+  ul,
+  ol {
+    margin-left: 2em;
+  }
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin-bottom: 0;
+  }
+  blockquote {
+    margin: 1em 2em;
+  }
+}
+/* --- Ende Reset (@media all)*/
+@media screen {
+  /*allgemein*/
+  body {
+    background: #141636;
+    color: #B6CDDB;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  a:link {
+    color: #00BC51;
+  }
+  a:focus,
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+  }
+  a:visited {
+    color: #00903E;
+  }
+  /* header */
+  #siteheader {
+    padding: 1.2em;
+  }
+  #siteheader h1 {
+    color: #7A617E;
+    font-size: 400%;
+    text-align: center;
+    margin: 0;
+  }
+  /* nav */
+  #sitenav {
+    background: #6289B6;
+    text-align: center;
+  }
+  #sitenav ul {
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+  }
+  #sitenav ul li {
+    flex: 1;
+    box-sizing: border-box;
+    border-top: 4px solid #3D61B6;
+    border-right: 4px solid #3D61B6;
+    border-bottom: 4px solid #3D61B6;
+  }
+  #sitenav ul li:last-child {
+    border-right: none;
+  }
+  #sitenav ul li a {
+    display: block;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    outline: none;
+    padding: 0.6em;
+  }
+  #sitenav ul li a:active {
+    background-color: #141636;
+    color: #6289B6;
+  }
+  #sitenav .level2 {
+    display: none;
+  }
+  /* flex-asmain */
+  #flex-main_aside {
+    display: flex;
+  }
+  #flex-main_aside #main-content {
+    order: 0;
+    text-align: justify;
+  }
+  #flex-main_aside #sidebar {
+    order: 1;
+    box-sizing: border-box;
+    hyphens: auto;
+  }
+  #flex-main_aside #sidebar p {
+    /*hotfix*/
+    margin: 0;
+  }
+  /* footer */
+  #sitefooter {
+    box-sizing: border-box;
+    border-top: 4px solid #3D61B6;
+  }
+  .padding-wrapper {
+    padding: 1em;
+  }
+}
+/* --- Desktop --- */
+@media screen and (min-width: 769px) {
+  /* flex-asmain */
+  #flex-main_aside {
+    flex-flow: row;
+    min-height: 65vh;
+  }
+  #flex-main_aside #main-content {
+    flex: 80%;
+  }
+  #flex-main_aside #sidebar {
+    flex: 20%;
+    border-left: 4px solid #3D61B6;
+  }
+}
+/* --- Ende Desktop (@media screen) --- */
+/* --- Mobil --- */
+@media screen and (max-width: 768px) {
+  /* flex-asmain */
+  #flex-main_aside {
+    flex-flow: column;
+  }
+  #flex-main_aside #main-content {
+    hyphens: auto;
+  }
+  #flex-main_aside #sidebar {
+    border-top: 4px solid #3D61B6;
+  }
+}
+/* --- Ende Mobil (@media screen) --- */
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22style.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3BAAqBE%3BEAlBD%3BIAAO%3B%3BEACP%3BEAAM%3BEAAK%3BEAAQ%3BEAAM%3BEAAO%3BEAAQ%3BEAAS%3BEACjD%3BEAAI%3BEAAI%3BEAAI%3BEAAI%3BEAAI%3BEACpB%3BEAAG%3BEAAY%3BEAAK%3BEACpB%3BEAAI%3BEAAI%3BEACR%3BEAAO%3BEAAI%3BEACX%3BEAAM%3BEAAU%3BEAAQ%3BEAAO%3BIAC9B%3BIAAY%3B%3BEAGb%3BEAAI%3BEAAI%3BEAAI%3BEAAI%3BEAAI%3BEACpB%3BEAAG%3BEAAY%3BEACf%3BEAAI%3BIACH%3B%3BEAED%3BEAAI%3BIAAK%3B%3BEACT%2CEAAG%3BEAAI%2CEAAG%3BEAAI%2CEAAG%3BEAAI%2CEAAG%3BIAAK%3B%3BEAC7B%3BIAAa%2CeAAA%3B%3B%3B%3BAA0Hd%3B%3BEArHC%3BIACC%3BIACA%3BIACA%2CkDAAA%3B%3BEAGD%3BIACC%3BIACA%3B%3BEAEA%2CCAAC%3BIACA%3B%3BEAED%2CCAAC%3BEAAQ%2CCAAC%3BIACT%3B%3BEAED%2CCAAC%3BIACA%3B%3BEAED%2CCAAC%3BIACA%3B%3B%3BEAOF%3BIACC%3B%3BEADD%2CWAGC%3BIACC%3BIACc%3BIACA%3BIACA%3B%3B%3BEAOhB%3BIACC%3BIACA%3B%3BEAFD%2CQAIC%3BIACC%3BIACA%3BIACA%3BIACA%3B%3BEARF%2CQAIC%2CGAMC%3BIACC%3BIACA%3BIACA%2C6BAAA%3BIACA%2C%2BBAAA%3BIACA%2CgCAAA%3B%3BEAEA%2CQAbF%2CGAMC%2CGAOE%3BIACA%3B%3BEAlBJ%2CQAIC%2CGAMC%2CGAWC%3BIACC%3BIACA%3BIACA%3BIACA%3BIACA%3BIACA%3BIACA%3B%3BEAEA%2CQA1BH%2CGAMC%2CGAWC%2CEASE%3BIACA%3BIACA%3B%3BEAhCL%2CQAsCC%3BIACC%3B%3B%3BEAMF%3BIACC%3B%3BEADD%2CgBAGC%3BIACC%3BIACA%3B%3BEALF%2CgBAQC%3BIACC%3BIACA%3BIACA%3B%3BEAXF%2CgBAQC%2CSAKC%3B%3BIACC%3B%3B%3BEAMH%3BIACC%3BIACA%2C6BAAA%3B%3BEAGD%3BIACC%3B%3B%3B%3BAAyBA%2CmBAlBmC%3B%3BEAIpC%3BIACC%3BIACA%3B%3BEAFD%2CgBAIC%3BIACC%3B%3BEALF%2CgBAQC%3BIACC%3BIACA%2C8BAAA%3B%3B%3B%3B%3BAAwBD%2CmBAhBmC%3B%3BEAGpC%3BIACC%3B%3BEADD%2CgBAGC%3BIACC%3B%3BEAJF%2CgBAOC%3BIACC%2C6BAAA%22%7D */

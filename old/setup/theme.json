@@ -1,53 +1,64 @@
 {
-
-   "title": "see-base",
-
-   "version": "0.0.1.42",
-
-   "doctype": "HTML5", /* HTML5, XHTML1_STRICT, XHTML1_TRANSITIONAL, XHTML1_FRAMESET, HTML4_STRICT, HTML4_TRANSITIONAL, HTML4_FRAMESET  */
-
-   "thumbnail": "thumbnail.png",
-
-   "author": "kr0l und Talvi und die ganzen anderen Dudes",
-
-   "options": [
-
-       {
-
-           "label": "Body background color",
-
-           "name": "bodyBackgroundColor",
-
-           "type": "color",
-
-           "default": "#fff"
-
-       },
-
-       {
-
-           "label": "Text color",
-
-           "name": "textColor",
-
-           "type": "color",
-
-           "default": "#fff"
-
-       },
-
-       {
-
-           "label": "Custom CSS",
-
-           "name": "customCSS",
-
-           "type": "text",
-
-           "default": "" }
-
-   ]
-
- 
-
+	"title": "see-base",
+	"version": "0.4.2.3",
+	"doctype": "HTML5",
+	"thumbnail": "thumbnail.png",
+	"author": "kr0l, Talvi und die ganzen anderen Dudes",
+	"options": [
+		{
+			"label": "Farben",
+			"type": "group",
+			"options": [
+				{
+					"label": "Hintergrundfarbe",
+					"name": "bodyBackgroundColor",
+					"type": "color",
+					"default": "#0e0f3e"
+				},
+				{
+					"label": "Titelfarbe",
+					"name": "h1Color",
+					"type": "color",
+					"default": "#3c4bc5"
+				},
+				{
+					"label": "Navigationsfarbe",
+					"name": "navColor",
+					"type": "color",
+					"default": "#004e66"
+				},
+				{
+					"label": "Rahmenfarbe",
+					"name": "borderColor",
+					"type": "color",
+					"default": "#1f17a0"
+				},
+				{
+					"label": "Textfarbe",
+					"name": "textColor",
+					"type": "color",
+					"default": "#6eb0fb"
+				},
+				{
+					"label": "Fußleistenfarbe",
+					"name": "footerColor",
+					"type": "color",
+					"default": "#24216c"
+				}
+			]
+		},
+		{
+			"label": "Seitenoptik",
+			"type": "group",
+			"options": [
+				{
+					"label": "Seitenleisten Anordnung",
+					"name": "asidePosition",
+					"type": "select",
+					"values": ["links", "rechts"],
+					"default": "rechts"
+				}
+			]
+		}
+	]
 }

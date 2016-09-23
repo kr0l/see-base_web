@@ -1,1 +1,1 @@
-﻿<?php echo ipBlock('footerBlock')->render(); ?>
+<?php echo ipBlock('footerBlock')->render(); ?>

@@ -1,6 +1,6 @@
 {
 	"title": "see-base",
-	"version": "0.4.2.3",
+	"version": "0.7.3",
 	"doctype": "HTML5",
 	"thumbnail": "thumbnail.png",
 	"author": "kr0l, Talvi und die ganzen anderen Dudes",
@@ -13,37 +13,37 @@
 					"label": "Hintergrundfarbe",
 					"name": "bodyBackgroundColor",
 					"type": "color",
-					"default": "#0e0f3e"
+					"default": "#141636"
 				},
 				{
 					"label": "Titelfarbe",
 					"name": "h1Color",
 					"type": "color",
-					"default": "#3c4bc5"
+					"default": "#7A617E"
 				},
 				{
 					"label": "Navigationsfarbe",
 					"name": "navColor",
 					"type": "color",
-					"default": "#004e66"
+					"default": "#6289B6"
 				},
 				{
 					"label": "Rahmenfarbe",
 					"name": "borderColor",
 					"type": "color",
-					"default": "#1f17a0"
+					"default": "#3D61B6"
 				},
 				{
 					"label": "Textfarbe",
 					"name": "textColor",
 					"type": "color",
-					"default": "#6eb0fb"
+					"default": "#B6CDDB"
 				},
 				{
 					"label": "Fußleistenfarbe",
 					"name": "footerColor",
 					"type": "color",
-					"default": "#24216c"
+					"default": "#141636"
 				}
 			]
 		},
