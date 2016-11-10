@@ -157,6 +157,11 @@
   #sitenav .level2 {
     display: none;
   }
+  /*Content*/
+  .ipWidget-Divider{
+border-bottom:1px solid #5EBA5E; 
+margin-bottom: 12px;
+}
   /* flex-asmain */
   #flex-main_aside {
     display: flex;

@@ -1,2 +1,3 @@
 css für:
-devider, image, galery, lightbox, files, video, map, form
+image, galery, lightbox, files, video, map, form
+
