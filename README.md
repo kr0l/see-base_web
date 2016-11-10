@@ -20,4 +20,4 @@ Jetzt muss noch unter ``Menu``->``Pages`` das Menü für die Navigation *(zB. me
 *bald*
 
 $D1NGE die noch erledigt werden müssten: 
-CSS für: image, galery, lightbox, files, video, map, form.
+CSS für: image, lightbox, files, video, map, form.
