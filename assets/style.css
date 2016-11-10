@@ -162,6 +162,13 @@
     border-bottom:1px solid #5EBA5E; 
     margin-bottom: 12px;
   }
+  .ipWidget-Gallery .ipsItem{
+     box-shadow: 1px 1px 15px -1px dodgerblue; 
+     display: inline-block;	
+     list-style-type: none;
+     width: 200px; 
+     margin-bottom: 9px;
+  }
   /* flex-asmain */
   #flex-main_aside {
     display: flex;
