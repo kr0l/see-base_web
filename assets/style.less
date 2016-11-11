@@ -76,17 +76,29 @@
   }
     
   /*Content*/
-  .ipWidget-Divider{
+  .ipWidget-Divider {
     border-bottom:1px solid #5EBA5E; 
     margin-bottom: 12px;
   }
-   .ipWidget-Gallery{
-     .ipsItem{
-       box-shadow: 1px 1px 15px -1px dodgerblue; 
-       display: inline-block;	
+   .ipWidget-Gallery {
+     .ipsItem {
+       float: left;
+       width: 23%;
+       min-width: 180px;
        list-style-type: none;
-       width: 200px; 
-       margin-bottom: 9px;
+       overflow: hidden;
+       border: 2px solid #3D61B6;
+       margin: 1%;
+       transition: all 0.3s ease;
+
+       img {
+         width: 100%;
+         height: auto;
+       }
+
+       &:focus, &:hover {
+         transform: scale(1.1, 1.1)
+       }
     }
   }
   /* header */
