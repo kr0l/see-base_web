@@ -22,4 +22,8 @@ Jetzt muss noch unter ``Menu``->``Pages`` das Menü für die Navigation *(zB. me
 *nö*
 
 $D1NGE die noch erledigt werden müssten: 
-CSS für: image, lightbox, files, video, map, form.
+CSS für: image, lightbox, files, video, map, form.3
+
+# Theme wurde ersetzt
+Seit 2017 verwenden wir ein Lektorprojekt für unsere Seite und nicht mehr dieses Theme.
+Hier haben wir uns bewusst gegen eine veröffentlichung entschieden. Muss ja nicht gleich alles Open Source sein...
